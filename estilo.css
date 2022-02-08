@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(65, 7, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.apagar,
+.btn-tarefa {
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.apagar {
+    background-color: #f34c4c;
+    padding: 2px 8px;
+    float: right;
+}
+
+.btn-tarefa {
+    background-color: rgb(102, 60, 168);
+    padding: 5px 10px;
+}
+
+.apagar:active {
+    background-color: #f71d1d;
+}
+
+ul {
+    padding: 0 10px;
+}
+
+ul li {
+    padding: 6px 2px;
+    list-style: none;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    clear: both;
+}
